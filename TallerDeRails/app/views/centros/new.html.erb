@@ -1,0 +1,10 @@
+<h1>Cargar un centro de fitness</h1>
+
+<%= form_for(@centro) do |f| %>
+	<%= f.text_field :nombre %>
+	<%= f.text_field :direccion %>
+	<%= f.text_field :precio %>
+	<%= f.text_field :telefono %>
+	<%= f.text_field :actividad %>
+	<%= f.submit 'Guardar' %>
+<% end %>
